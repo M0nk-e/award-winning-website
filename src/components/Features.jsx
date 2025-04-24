@@ -103,12 +103,11 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Our Marketing Services
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          We provide a comprehensive range of marketing services to help your brand 
+          stand out and achieve measurable results in today's competitive landscape.
         </p>
       </div>
 
@@ -117,10 +116,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              Dr<b>o</b>ne Footage
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Capture stunning aerial perspectives with our professional drone videography services, perfect for real estate, events, and commercial projects."
           isComingSoon
         />
       </BentoTilt>
@@ -131,10 +130,10 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+                Phot<b>o</b>shoots, Smile :)
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="Professional photography services for brands, products, and corporate events, capturing your story in every frame."
             isComingSoon
           />
         </BentoTilt>
@@ -144,10 +143,10 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                Profess<b>i</b>onal Editing
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            description="Transform your raw footage into polished masterpieces with our expert video and photo editing services."
             isComingSoon
           />
         </BentoTilt>
@@ -157,21 +156,69 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                Everyth<b>i</b>ng and more
               </>
             }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            description="Comprehensive marketing solutions including social media management, content creation, and brand strategy."
             isComingSoon
           />
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">
-          <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
-            <h1 className="bento-title special-font max-w-64 text-black">
-              M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
+          <div className="flex size-full flex-col justify-between bg-blue-500 p-5">
+            <h1 className="bento-title special-font max-w-64 text-white">
+              Our Cl<b>i</b>ents
             </h1>
-
-            <TiLocationArrow className="m-5 scale-[5] self-end" />
+            <div className="grid grid-cols-3 gap-4">
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://yt3.googleusercontent.com/J9N7Zu--_E6RpPh6QzpQyJQDrRuWcNrYNNrBiOV9xkT5IeshJtT-4AEmdix3xEvkiyEF4tmacLs=s900-c-k-c0x00ffffff-no-rj"
+                  alt="MBC"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">MBC</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://media.licdn.com/dms/image/v2/D4E0BAQH1bIzXBvFAig/company-logo_200_200/company-logo_200_200/0/1664472539367/riyad_bank_logo?e=2147483647&v=beta&t=SG-iquxNEkEUVoZOJUATg8YLDnZvh4J88wlC3ClWa-U"
+                  alt="Riyad Bank"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">Riyad Bank</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://media.licdn.com/dms/image/v2/D4D0BAQE1LeMd45ceqQ/company-logo_200_200/company-logo_200_200/0/1700727793807/__logo?e=2147483647&v=beta&t=eQqLES7WFP2wB8JNgKTSX8NMA_L5JAdCrxp5AWtZLt8"
+                  alt="Insurance Authority"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">Insurance Authority</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://m.eyeofriyadh.com/directory/images/2021/07/1b9c527e42d05.jpg"
+                  alt="Okaz"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">Okaz</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://media.licdn.com/dms/image/v2/D4E0BAQETvgsxinMCQw/company-logo_200_200/company-logo_200_200/0/1737553409760?e=2147483647&v=beta&t=vQlEsA6NNmWk-FuQYlR8zVOSXZrD9cwDG7wqI7UUxPk"
+                  alt="HRC"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">HRC</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <img 
+                  src="https://media.licdn.com/dms/image/v2/C4D0BAQG5jZnY4CdaNA/company-logo_200_200/company-logo_200_200/0/1630492202877/alwatansa_logo?e=2147483647&v=beta&t=zgnqvBDsAwkZBGiUniD7X23s46l2Bkp8lFnp7Ih8u8U"
+                  alt="Alwatan"
+                  className="h-20 w-20 rounded-full object-cover"
+                />
+                <p className="mt-2 text-xs text-white">Alwatan</p>
+              </div>
+            </div>
           </div>
         </BentoTilt>
 
